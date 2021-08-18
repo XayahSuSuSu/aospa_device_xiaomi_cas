@@ -93,7 +93,6 @@ TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(DEVICE_PATH)/vintf/device_framework_matrix.xml \
     $(DEVICE_PATH)/vintf/xiaomi_framework_matrix.xml
 
 DEVICE_MANIFEST_FILE := \
@@ -101,7 +100,7 @@ DEVICE_MANIFEST_FILE := \
     $(DEVICE_PATH)/vintf/xiaomi_manifest.xml
 
 DEVICE_MATRIX_FILE := \
-    $(DEVICE_PATH)/vintf/compatibility_matrix.xml
+    device/qcom/common/compatibility_matrix.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE := \
