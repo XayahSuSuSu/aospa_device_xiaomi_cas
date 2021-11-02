@@ -324,6 +324,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor
 
+# Platform
+TARGET_BOARD_PLATFORM := kona
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
