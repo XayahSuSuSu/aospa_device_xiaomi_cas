@@ -46,7 +46,7 @@ using ::android::base::WriteStringToFile;
 #define FOD_SENSOR_SIZE 197
 
 namespace vendor {
-namespace lineage {
+namespace aospa {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
@@ -184,5 +184,5 @@ Return<void> FingerprintInscreen::setCallback(const sp<IFingerprintInscreenCallb
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
-}  // namespace lineage
+}  // namespace aospa
 }  // namespace vendor

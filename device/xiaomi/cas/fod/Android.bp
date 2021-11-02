@@ -16,9 +16,9 @@
 cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona",
-    vintf_fragments: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona.xml"],
-    init_rc: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona.rc"],
+    name: "vendor.aospa.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona",
+    vintf_fragments: ["vendor.aospa.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona.xml"],
+    init_rc: ["vendor.aospa.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona.rc"],
     srcs: [
         "service.cpp",
         "FingerprintInscreen.cpp",
@@ -29,7 +29,7 @@ cc_binary {
         "libhidlbase",
         "liblog",
         "libutils",
-        "vendor.lineage.biometrics.fingerprint.inscreen@1.0",
+        "vendor.aospa.biometrics.fingerprint.inscreen@1.0",
         "//hardware/xiaomi:vendor.goodix.hardware.biometrics.fingerprint@2.1",
         "//hardware/xiaomi:vendor.xiaomi.hardware.fingerprintextension@1.0",
         "//hardware/xiaomi:vendor.xiaomi.hardware.touchfeature@1.0",
