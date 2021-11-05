@@ -1,0 +1,32 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "XayahSuSuSu/device_xiaomi_cas",
+        "target_path":  "device/xiaomi/cas",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "github",
+        "repository":   "XayahSuSuSu/kernel_xiaomi_cas",
+        "target_path":  "kernel/xiaomi/cas",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "Xayah/vendor_xiaomi_cas",
+        "target_path":  "vendor/xiaomi/cas",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt",
+        "target_path":  "packages/apps/GcamGOPrebuilt",
+        "revision":     "arrow-11.0"
+    }
+]
