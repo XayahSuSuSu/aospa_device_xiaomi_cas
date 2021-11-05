@@ -1142,7 +1142,6 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
-vendor/bin/pd-mapper
 vendor/bin/qmipriod
 vendor/etc/init/qmipriod.rc
 vendor/etc/seccomp_policy/qti-systemd.policy
@@ -1279,8 +1278,6 @@ vendor/lib64/libnetmgr_rmnet_ext.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnlnetmgr.so
 vendor/lib64/liboemaids_vendor.so
-vendor/lib64/libpdmapper.so
-vendor/lib64/libpdnotifier.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqcrildatactl.so
 vendor/lib64/libqcrilFramework.so
@@ -1803,6 +1800,11 @@ vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
+
+# PD
+vendor/bin/pd-mapper
+vendor/lib64/libpdmapper.so
+vendor/lib64/libpdnotifier.so
 
 # QDMA
 -vendor/app/QCC-TR-UI/QCC-TR-UI.apk
