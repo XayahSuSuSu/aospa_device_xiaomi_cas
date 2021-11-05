@@ -82,7 +82,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/vintf/device_framework_matrix.xml \
     $(DEVICE_PATH)/vintf/xiaomi_framework_matrix.xml \
 
-DEVICE_MANIFEST_FILE := \
+DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/vintf/manifest.xml \
     $(DEVICE_PATH)/vintf/xiaomi_manifest.xml
 
