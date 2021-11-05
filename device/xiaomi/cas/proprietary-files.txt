@@ -1817,6 +1817,10 @@ vendor/etc/seccomp_policy/qspm.policy
 vendor/lib64/vendor.qti.qspmhal@1.0.so
 vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 
+# RemoteFS
+vendor/bin/rmt_storage
+vendor/etc/init/vendor.qti.rmt_storage.rc
+
 # TFTP
 vendor/bin/tftp_server
 vendor/etc/init/vendor.qti.tftp.rc
