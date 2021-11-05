@@ -1246,7 +1246,6 @@ vendor/bin/qrtr-lookup
 vendor/bin/qrtr-ns
 vendor/bin/qti
 vendor/bin/rmt_storage
-vendor/bin/ssgtzd
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
 vendor/etc/init/dataadpl.rc
@@ -1256,7 +1255,6 @@ vendor/etc/init/ipa_fws.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/qcrild.rc
-vendor/etc/init/ssgtzd.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/etc/ssg/ta_config.json
@@ -1740,6 +1738,12 @@ vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 
 ####################### - From LA.UM.9.12.r1-10800-SMxx50.0
 
+# Connection Security
+vendor/bin/ssgqmigd
+vendor/bin/ssgtzd
+vendor/etc/init/ssgtzd.rc
+vendor/lib64/libminksocket.so
+
 # GPS
 vendor/bin/garden_app
 vendor/bin/loc_launcher
@@ -1779,7 +1783,6 @@ vendor/lib64/liblocationservice_glue.so
 vendor/lib64/liblocdiagiface.so|31f88106b5aeceff4264f06ce5299455c3058499
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
-vendor/lib64/libminksocket.so
 vendor/lib64/libqcc_file_agent.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libsynergy_loc_api.so
