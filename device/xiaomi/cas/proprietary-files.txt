@@ -848,12 +848,6 @@ vendor/firmware/WindChime_RTP.bin
 vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-
 # Graphics
 -vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk;PRESIGNED
 
@@ -1851,6 +1845,12 @@ vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib64/libfastcvdsp_stub.so
+
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 #######################
 
