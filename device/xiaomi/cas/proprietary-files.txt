@@ -1007,13 +1007,6 @@ vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
-# NFC
-vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-nxp.conf
-vendor/etc/libnfc-nxp_RF.conf
-vendor/etc/libnfc-nxp-pnscr.conf
-vendor/lib/libsn100u_fw.so
-
 # Neural Networks
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
@@ -1787,6 +1780,11 @@ vendor/etc/permissions/android.hardware.light.xml
 vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/lib64/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.1.so
+
+# NFC
+vendor/etc/libnfc-mtp-SN100.conf
+vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf
+vendor/lib/libsn100u_fw.so
 
 # PD
 vendor/bin/pd-mapper
