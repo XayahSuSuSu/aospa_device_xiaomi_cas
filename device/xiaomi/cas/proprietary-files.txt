@@ -1863,6 +1863,10 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
+# QCV
+vendor/lib64/libsoc_helper_jni.so
+vendor/lib64/libsoc_helper.so
+
 #######################
 
 ####################### - From LA.UM.9.12.r1-12000-SMxx50.0
