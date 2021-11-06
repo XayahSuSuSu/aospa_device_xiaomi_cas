@@ -23,16 +23,12 @@ vendor/lib64/libacdbrtac.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
-vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
 vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
 vendor/lib/rfsa/adsp/libcalculator_domains_skel.so
 vendor/lib/rfsa/adsp/libcalculator_skel.so
 vendor/lib/rfsa/adsp/libcamera_nn_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libfastcvadsp.so
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib/rfsa/adsp/libfrc_mobilenet.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
 vendor/lib/rfsa/adsp/libMIAIHDR_skel.so
@@ -1150,16 +1146,12 @@ vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
 
 # Snapdragon Computer Vision Engine
--vendor/lib/libfastcvopt.so
--vendor/lib64/libfastcvopt.so
-vendor/lib/libfastcvdsp_stub.so
 vendor/lib/libscveCommon_stub.so
 vendor/lib/libscveCommon.so
 vendor/lib/libscveObjectSegmentation_stub.so
 vendor/lib/libscveObjectSegmentation.so
 vendor/lib/libscveObjectTracker_stub.so
 vendor/lib/libscveObjectTracker.so
-vendor/lib64/libfastcvdsp_stub.so
 vendor/lib64/libscveCommon_stub.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libscveObjectSegmentation_stub.so
@@ -1849,6 +1841,16 @@ vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
+
+# FASTCV
+-vendor/lib/libfastcvopt.so
+-vendor/lib64/libfastcvopt.so
+vendor/lib/libfastcvdsp_stub.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
+vendor/lib64/libfastcvdsp_stub.so
 
 #######################
 
