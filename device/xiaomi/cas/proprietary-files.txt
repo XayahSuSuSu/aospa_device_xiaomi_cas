@@ -624,20 +624,6 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 # Consumer IR
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.kona.so
 
-# Display (HDR)
-vendor/lib64/libhdr_tm.so
-
-# Display (SDM)
-vendor/lib64/libclient2slpi.notifier.so
-vendor/lib64/libdisplayskuutils.so
-vendor/lib64/libqseed3.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtinyxml2_1.so
-
 # Display Calibration
 vendor/etc/ltm_config_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.xml
@@ -1863,5 +1849,22 @@ vendor/lib/libdiag.so
 vendor/lib/libdiagjni.so
 vendor/lib64/libdiag.so
 vendor/lib64/libdiagjni.so
+
+#######################
+
+####################### - From LA.UM.9.12.r1-12000-SMxx50.0
+
+# Display-Hardware
+vendor/lib64/libdisp-aba.so
+vendor/lib64/libdisplayqos.so
+vendor/lib64/libdisplayskuutils.so
+vendor/lib64/libhdr_tm.so
+vendor/lib64/libqseed3.so
+vendor/lib64/libsdm-color.so
+vendor/lib64/libsdm-colormgr-algo.so
+vendor/lib64/libsdm-diag.so
+vendor/lib64/libsdm-disp-vndapis.so
+vendor/lib64/libsdmextension.so
+vendor/lib64/libtinyxml2_1.so
 
 #######################
