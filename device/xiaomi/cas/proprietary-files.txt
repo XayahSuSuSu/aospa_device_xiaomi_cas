@@ -1891,6 +1891,12 @@ vendor/lib64/libsubsystem_control.so
 vendor/bin/tftp_server
 vendor/etc/init/vendor.qti.tftp.rc
 
+# Thermal Limits
+vendor/bin/hw/vendor.qti.hardware.limits@1.0-service
+vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc
+-vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml
+vendor/lib64/vendor.qti.hardware.limits@1.0.so
+
 #######################
 
 ####################### - From LA.UM.9.12.r1-12000-SMxx50.0
