@@ -869,10 +869,6 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 
-# MM OSAL
-vendor/lib/libmmosal.so
-vendor/lib64/libmmosal.so
-
 # Neural Networks
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
@@ -1861,6 +1857,10 @@ vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
 vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
+
+# MM OSAL
+vendor/lib/libmmosal.so
+vendor/lib64/libmmosal.so
 
 #######################
 
