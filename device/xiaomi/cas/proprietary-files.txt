@@ -1897,6 +1897,9 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
+# UBWC
+vendor/lib/libstreamparser.so
+
 #######################
 
 ####################### - From LA.UM.9.12.r1-12000-SMxx50.0
