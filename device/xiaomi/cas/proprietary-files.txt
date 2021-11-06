@@ -851,11 +851,6 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 # Graphics
 -vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk;PRESIGNED
 
-# Machine Learning
-vendor/bin/npu_launcher
-vendor/lib/libnpu.so
-vendor/lib64/libnpu.so
-
 # Media
 vendor/etc/system_properties.xml
 
@@ -1857,6 +1852,12 @@ vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
 vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
+
+# Machine Learning
+vendor/bin/npu_launcher
+vendor/lib/libnpu.so
+vendor/lib64/libhta_hexagon_runtime.so
+vendor/lib64/libnpu.so
 
 # MM OSAL
 vendor/lib/libmmosal.so
