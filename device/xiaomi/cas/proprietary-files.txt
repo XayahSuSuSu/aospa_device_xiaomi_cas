@@ -1637,10 +1637,6 @@ vendor/bin/hw/vendor.qti.secure_element@1.2-service
 vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
 vendor/lib64/android.hardware.secure_element@1.0-impl.so
 
-# TFTP
-vendor/bin/tftp_server
-vendor/etc/init/vendor.qti.tftp.rc
-
 #######################
 
 ####################### - From LA.UM.9.12.r1-11500-SMxx50.0
@@ -1890,6 +1886,10 @@ vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
 vendor/lib/libsubsystem_control.so
 vendor/lib64/libsubsystem_control.so
+
+# TFTP
+vendor/bin/tftp_server
+vendor/etc/init/vendor.qti.tftp.rc
 
 #######################
 
