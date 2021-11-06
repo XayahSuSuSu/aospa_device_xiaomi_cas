@@ -735,13 +735,6 @@ vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 
-# ESE
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
-vendor/lib64/vendor.qti.esepowermanager@1.1.so
-
 # Feature Enabler Client
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
@@ -1673,6 +1666,13 @@ vendor/lib64/vendor.qti.hardware.embmssl@1.0.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
+
+# ESE
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
+vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
+vendor/lib64/vendor.qti.esepowermanager@1.0.so
+vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
 # GPS
 vendor/bin/garden_app
