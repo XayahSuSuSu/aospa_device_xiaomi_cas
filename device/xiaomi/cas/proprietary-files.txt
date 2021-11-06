@@ -1874,6 +1874,23 @@ vendor/lib64/libminkdescriptor.so
 vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
+# SecureMSM
+vendor/bin/hdcp1prov
+vendor/bin/hdcp2p2prov
+vendor/lib64/libbase64.so
+vendor/lib64/libcpion.so
+vendor/lib64/libhdcpsrm.so
+vendor/lib64/libhdcp1prov.so
+vendor/lib64/libhdcp2p2prov.so
+vendor/lib64/libops.so
+vendor/lib64/libpvr.so
+vendor/lib64/libqisl.so
+vendor/lib64/librmp.so
+vendor/lib64/libspl.so
+vendor/lib64/liboemcrypto.so
+vendor/lib64/libtrustedapploader.so
+vendor/lib64/libtzdrmgenprov.so
+
 #######################
 
 ####################### - From LA.UM.9.12.r1-12000-SMxx50.0
