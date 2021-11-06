@@ -1850,4 +1850,18 @@ vendor/bin/ssgtzd
 vendor/etc/init/ssgtzd.rc
 vendor/lib64/libminksocket.so
 
+# Diag
+vendor/bin/PktRspTest
+vendor/bin/diag_callback_sample
+vendor/bin/diag_dci_sample
+vendor/bin/diag_klog
+vendor/bin/diag_mdlog
+vendor/bin/diag_socket_log
+vendor/bin/diag_uart_log
+vendor/bin/test_diag
+vendor/lib/libdiag.so
+vendor/lib/libdiagjni.so
+vendor/lib64/libdiag.so
+vendor/lib64/libdiagjni.so
+
 #######################
