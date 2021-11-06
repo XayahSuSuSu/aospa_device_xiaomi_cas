@@ -1867,6 +1867,13 @@ vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 vendor/bin/rmt_storage
 vendor/etc/init/vendor.qti.rmt_storage.rc
 
+# SMC Invoke
+vendor/etc/ssg/ta_config.json
+vendor/etc/ssg/tz_whitelist.json
+vendor/lib64/libminkdescriptor.so
+vendor/lib64/libnative-api.so
+vendor/lib64/libqcbor.so
+
 #######################
 
 ####################### - From LA.UM.9.12.r1-12000-SMxx50.0
