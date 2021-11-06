@@ -1041,9 +1041,6 @@ vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
 vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
 
-# Subsystem
-vendor/bin/ssr_setup
-
 # Thermal
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
@@ -1886,6 +1883,13 @@ vendor/bin/vendor.qti.hardware.soter@1.0-provision
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
+
+# SS Restart
+vendor/bin/ssr_diag
+vendor/bin/ssr_setup
+vendor/bin/subsystem_ramdump
+vendor/lib/libsubsystem_control.so
+vendor/lib64/libsubsystem_control.so
 
 #######################
 
