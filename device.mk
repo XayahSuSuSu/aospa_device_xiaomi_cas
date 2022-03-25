@@ -327,12 +327,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    CarrierConfigResCommon \
-    FrameworksResCommon \
     FrameworksResTarget \
-    SystemUIResCommon \
-    TelephonyResCommon \
-    WifiResCommon \
     WifiResTarget \
     DeviceFrameworks \
     DeviceSystemUI \
@@ -348,6 +343,7 @@ TARGET_BOARD_PLATFORM := kona
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
+    overlay \
     perf \
     telephony
 
